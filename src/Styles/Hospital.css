@@ -1,0 +1,179 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.hospital-dashboard {
+  padding: 30px 20px;
+  /* max-width: 1100px; */
+  width: 100vw;
+  margin: auto;
+  font-family: "Segoe UI", sans-serif;
+   background: #ffffff;
+}
+
+.hospital-card {
+  background: #ffffff;
+  padding: 20px;
+  margin-bottom: 30px;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+}
+h1{
+    color: #1a202c;
+    text-align: center;
+}
+
+.hospital-card h2 {
+  color: #1a202c;
+  margin-bottom: 8px;
+}
+
+.hospital-card p {
+  color: #4a5568;
+  font-size: 1rem;
+}
+
+.department-card {
+  background: #f7fafc;
+  padding: 12px 16px;
+  margin-top: 15px;
+  border-left: 4px solid #2b6cb0;
+  border-radius: 6px;
+}
+
+.department-card h4 {
+  color: #2b6cb0;
+  margin-bottom: 8px;
+}
+
+.department-card ul {
+  padding-left: 20px;
+  margin: 0;
+}
+
+.department-card li {
+  font-size: 0.95rem;
+  color: #2d3748;
+  margin-bottom: 5px;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .hospital-dashboard {
+    padding: 15px;
+  }
+
+  .hospital-card h2 {
+    font-size: 1.4rem;
+  }
+
+  .department-card h4 {
+    font-size: 1.1rem;
+  }
+
+  .department-card li {
+    font-size: 0.9rem;
+  }
+}
+/* Hospital.css */
+
+.hospital-dashboard {
+  /* max-width: 900px; */
+  margin: 0 auto;
+  padding: 2rem;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+h1, h2, h3, h4 {
+  color: #2c3e50;
+}
+
+.hospital-form,
+.department-form {
+  background-color: #fff;
+  padding: 1rem;
+  margin-bottom: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.hospital-form h3,
+.department-form h4 {
+  margin-bottom: 1rem;
+}
+
+.hospital-form input,
+.department-form input {
+  display: block;
+  width: 100%;
+  padding: 0.6rem;
+  margin-bottom: 0.75rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 1rem;
+}
+
+.hospital-form button,
+.department-form button,
+.hospital-card button {
+  background-color: #2c3e50;
+  color: white;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.hospital-form button:hover,
+.department-form button:hover,
+.hospital-card button:hover {
+  background-color: #1a242f;
+}
+
+.hospital-card {
+  background-color: #ffffff;
+  margin-bottom: 2rem;
+  padding: 1rem 1.5rem;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+}
+
+.hospital-card h2 {
+  margin-bottom: 0.5rem;
+}
+
+.hospital-card p {
+  margin-bottom: 0.75rem;
+}
+
+.hospital-card ul {
+  padding-left: 1.2rem;
+  margin-bottom: 1rem;
+}
+
+.hospital-card ul li {
+  margin-bottom: 0.4rem;
+}
+
+.hospital-card button {
+  margin-top: 0.5rem;
+}
+
+@media (max-width: 600px) {
+  .hospital-dashboard {
+    padding: 1rem;
+  }
+
+  .hospital-form,
+  .department-form {
+    padding: 0.75rem;
+  }
+
+  .hospital-card {
+    padding: 1rem;
+  }
+}

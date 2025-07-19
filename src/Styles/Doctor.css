@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* DoctorsPage.css */
+
+.doctors-page {
+  padding: 30px 20px;
+  /* max-width: 1200px; */
+  width: 100vw;
+  margin: auto;
+  font-family: "Segoe UI", sans-serif;
+  background-color: #f4f6f8;
+}
+
+.doctors-page h1 {
+  text-align: center;
+  margin-bottom: 30px;
+  color: #2d3748;
+  font-size: 2rem;
+}
+
+.doctor-card {
+  background-color: #ffffff;
+  padding: 20px;
+  margin-bottom: 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.06);
+  transition: all 0.3s ease;
+}
+
+.doctor-card h2 {
+  margin-bottom: 10px;
+  color: #1a202c;
+}
+
+.doctor-card p {
+  color: #4a5568;
+  margin: 4px 0;
+  font-size: 1rem;
+}
+
+.hospital-section h3 {
+  margin-top: 20px;
+  margin-bottom: 12px;
+  color: #2b6cb0;
+  font-size: 1.1rem;
+}
+
+.hospital-card {
+  background-color: #edf2f7;
+  padding: 12px 16px;
+  margin-bottom: 15px;
+  border-left: 4px solid #2b6cb0;
+  border-radius: 6px;
+}
+
+.hospital-card p {
+  margin: 4px 0;
+  color: #2d3748;
+  font-size: 0.95rem;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .doctors-page {
+    padding: 20px 10px;
+  }
+
+  .doctor-card {
+    padding: 15px;
+  }
+
+  .doctors-page h1 {
+    font-size: 1.6rem;
+  }
+
+  .doctor-card h2 {
+    font-size: 1.3rem;
+  }
+
+  .hospital-section h3 {
+    font-size: 1rem;
+  }
+
+  .doctor-card p,
+  .hospital-card p {
+    font-size: 0.95rem;
+  }
+}
