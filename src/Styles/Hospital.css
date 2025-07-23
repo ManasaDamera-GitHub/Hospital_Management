@@ -177,3 +177,53 @@ h1, h2, h3, h4 {
     padding: 1rem;
   }
 }
+.hospital-admin {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  background: #f9f9f9;
+}
+
+.form input {
+  margin: 8px 0;
+  padding: 8px;
+  width: 100%;
+}
+
+.department-input {
+  display: flex;
+  gap: 10px;
+  margin: 10px 0;
+}
+
+.add-btn {
+  margin-top: 10px;
+  padding: 10px;
+  width: 100%;
+  background: teal;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.dept-list li {
+  margin-left: 20px;
+  list-style-type: disc;
+}
+
+.hospital-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.hospital-table th,
+.hospital-table td {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: left;
+}
+
